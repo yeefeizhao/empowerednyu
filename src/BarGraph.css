@@ -1,0 +1,103 @@
+.bar-graph {
+    width: 28.3vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dae0f5;
+}
+
+.bar-graph-container {
+    width: 85%;
+    height: 100%;
+}
+
+.skill-area {
+    width: 100%;
+}
+
+.skill-area h2 {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.box:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.line-area {
+    position: relative;
+    background-color: #dae0f5;
+    padding: 10px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.bar-line {
+    position: relative;
+    width: 0;
+    height: 5px;
+    background-color: #3449a8;
+    border: 1px solid #3449a8;
+    border-radius: 1rem;
+    animation: fill-animation 1s forwards;
+}
+
+@keyframes fill-animation {
+    100% {
+        width: var(--final-width);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .bar-graph {
+        width: 100%;
+    }
+
+    .content {
+        font-size : 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        font-size : 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bar-graph {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .content {
+        font-size : 0.7rem;
+    }
+
+    .line-area {
+        padding: 5px;
+    }
+
+    .skill-area h2 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skill-area h2 {
+        margin-bottom: 20px;
+    }
+}

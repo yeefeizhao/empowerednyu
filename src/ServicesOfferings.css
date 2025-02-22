@@ -1,0 +1,90 @@
+.services-offerings {
+	height: 165vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services-offerings-container {
+	height: 100%;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-evenly;	
+}
+
+.services-offerings-container h2 {
+	height: 5%;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 3rem;
+}
+
+.services-offerings-row {
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: first baseline;
+}
+
+@media screen and (max-width: 1300px) {
+	.services-offerings-row {
+		height: 45vh;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+    .services-offerings-row {
+		height: 35vh;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.services-offerings {
+		height: 140vh;
+	}
+
+	.services-offerings-row {
+		height: 35%;
+	}
+
+	.services-offerings-container {
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.services-offerings {
+		height: auto;
+	}
+
+	.services-offerings-container {
+		justify-content: space-evenly;
+	}
+
+	.services-offerings-row {
+		align-items: center;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.services-offerings-container:nth-child() {
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.services-offerings-container h2 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 368px) { 
+	.services-offerings-container h2 {
+		font-size: 2rem;
+	}
+}

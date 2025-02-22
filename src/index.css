@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Open Sauce Sans";
+    font-weight: 600;
+    src: url("/fonts/OpenSauceSans-Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    font-weight: 700;
+    src: url("/fonts/OpenSauceSans-Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    font-weight: 400;
+    src: url("/fonts/OpenSauceSans-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    font-weight: 200;
+    src: url("/fonts/OpenSauceSans-Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Shadows Into Light";
+    src: url("/fonts/ShadowsIntoLight-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Bad Script";
+    src: url("/fonts/exp/BadScript-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Calligraffitti";
+    src: url("/fonts/exp/Calligraffitti-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Reenie Beanie";
+    src: url("/fonts/exp/ReenieBeanie-Regular.ttf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sauce Sans";
+    font-weight: 600;
+    scroll-behavior: smooth;
+}

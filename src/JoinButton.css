@@ -1,0 +1,138 @@
+.join-buttons {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-buttons-container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-button-Link {
+    text-decoration: none;
+}
+
+.join-button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 11rem;
+    height: 3.5rem;
+    border: none;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.join-button:hover {
+    background-color: rgb(239, 255, 219);
+}
+
+.join-button-blue {
+    background-color: #fff;
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+.join-button-blue:hover {
+    background-color: #dae0f5;
+}
+
+.join-button .button-default-text {
+    display: flex;
+    overflow: hidden;
+}
+
+.join-button:hover .button-default-text {
+    position: absolute;
+}
+
+.join-button:hover .button-default-text span {
+    -moz-transform: translateY(1.2em);
+    -ms-transform: translateY(1.2em);
+    -o-transform: translateY(1.2em);
+    transform: translateY(1.2em);
+}
+
+.join-button .button-default-text span {
+    transition: 0.2s;
+}
+
+.join-button .button-hover-text {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.join-button .button-hover-text span {
+    -moz-transform: translateY(-1.2em);
+    -ms-transform: translateY(-1.2em);
+    -o-transform: translateY(-1.2em);
+    transform: translateY(-1.2em);
+    transition: 0.2s;
+}
+
+.join-button:hover .button-hover-text span {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 1300px) {
+    .join-buttons-container {
+        width: 40%;
+    }
+
+    .join-button {
+        width: 10rem;
+        height: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .join-buttons-container {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .join-buttons-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .join-buttons-container {
+        width: 70%;
+    }
+
+    .join-button {
+        width: 7.5rem;
+        height: 3.3rem;
+        font-size: 0.9rem;
+    }  
+}
+
+@media screen and (max-width: 460px) {
+    .join-buttons-container {
+        width: 90%;
+    }
+
+    .join-button {
+        width: 7rem;
+        height: 3rem;
+        font-size: 0.8rem;
+    }  
+}

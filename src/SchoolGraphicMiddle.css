@@ -1,0 +1,111 @@
+.school-graphic-middle {
+    width: 28.3vw;
+    height: 104vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    transition: background-color 1s ease-in-out;
+}
+
+.school-graphic-middle:hover {
+    background-color: rgba(36, 57, 153,0.3);
+}
+
+.school-graphic-middle-container {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.school-graphic-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.school-graphic-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.school-graphic-button {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.school-graphic-button-Link {
+    text-decoration: none;
+}
+
+.school-graphic-button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 11rem;
+    height: 3.5rem;
+    border: none;
+    background-color: #fff;
+    color: #3449a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.school-graphic-button:hover {
+    background-color: #dae0f5;
+	color: #3449a8;
+}
+
+.school-graphic-button .button-default-text {
+    display: flex;
+    overflow: hidden;
+}
+
+.school-graphic-button:hover .button-default-text {
+    position: absolute;
+}
+
+.school-graphic-button:hover .button-default-text span {
+-moz-transform: translateY(1.2em);
+    -ms-transform: translateY(1.2em);
+    -o-transform: translateY(1.2em);
+    transform: translateY(1.2em);
+}
+
+.school-graphic-button .button-default-text span {
+    transition: 0.2s;
+}
+
+.school-graphic-button .button-hover-text {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.school-graphic-button .button-hover-text span {
+    -moz-transform: translateY(-1.2em);
+    -ms-transform: translateY(-1.2em);
+    -o-transform: translateY(-1.2em);
+    transform: translateY(-1.2em);
+    transition: 0.2s;
+}
+
+.school-graphic-button:hover .button-hover-text span {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}

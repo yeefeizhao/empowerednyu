@@ -1,0 +1,61 @@
+import "./App.css";
+import Home from "./Home";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import About from "./About";
+import Team from "./Team";
+import Services from "./Services";
+import GetInvolved from "./GetInvolved";
+import Contact from "./Contact";
+import Nav from "./Nav";
+import Footer from "./Footer";
+import { AnimatePresence, motion } from "framer-motion";
+
+function AnimatedRoutes() {
+    const location = useLocation();
+    
+    return (
+        <AnimatePresence mode="wait">
+            <Routes location={location} key={location.pathname}>
+                <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
+                <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
+                <Route path="/team" element={<PageWrapper><Team /></PageWrapper>} />
+                <Route path="/services" element={<PageWrapper><Services /></PageWrapper>} />
+                <Route path="/join" element={<PageWrapper><GetInvolved /></PageWrapper>} />
+                <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
+            </Routes>
+        </AnimatePresence>
+    );
+}
+
+const pageVariants = {
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.7 } },
+    exit: { opacity: 0, y: -20, transition: { duration: 0.3 } }
+};
+
+function PageWrapper({ children }) {
+    return (
+        <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageVariants}
+        >
+            {children}
+        </motion.div>
+    );
+}
+
+function App() {
+    return (
+        <div className="App">
+            <Router>
+                <Nav />
+                <AnimatedRoutes />
+                <Footer />
+            </Router>
+        </div>
+    );
+}
+
+export default App;

@@ -1,0 +1,47 @@
+.buffer-section {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
+}
+
+.buffer-section-rotated {
+    width: 100%;
+    height: 50%;
+    background: rgb(52, 73, 168);
+    background: linear-gradient(
+        135deg,
+        rgba(52, 73, 168, 0.6) 35%,
+        rgba(234, 247, 217, 0.6) 100%
+    );
+}
+
+@media screen and (max-width: 1444px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    .buffer-section {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .buffer-section {
+        height: 20vh;
+    }
+}
