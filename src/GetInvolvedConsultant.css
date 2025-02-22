@@ -1,0 +1,151 @@
+.get-involved-consultant {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-involved-consultant-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-involved-consultant-container img {
+    width: 90%;
+}
+
+.get-involved-consultant-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.get-involved-consultant-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 90%;
+    height: 35%;
+}
+
+.get-involved-consultant-text h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #3449a8;
+}
+
+.get-involved-consultant-dropdown {
+    width: 45%;
+    height: 100%;
+}
+
+.consultant-apply {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+}
+
+.consultant-button-link {
+    text-decoration: none;
+}
+
+.consultant-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: #d1d7f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.consultant-button:hover {
+    background-color: rgb(52, 73, 168, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .get-involved-consultant-text {
+        height: 55%;
+    }
+
+    .consultant-apply {
+        flex-direction: column;
+        align-items: first baseline;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .get-involved-consultant {
+        height: 170vh;
+    }
+
+    .get-involved-consultant-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .get-involved-consultant-info {
+        width: 100%;
+        height: 60%;
+    }
+
+    .get-involved-consultant-text {
+        justify-content: space-evenly;
+        height: 50%;
+    }
+
+    .get-involved-consultant-container img {
+        width: 100%;
+    }
+
+    .get-involved-consultant-dropdown {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .get-involved-consultant {
+        height: 180vh;
+    }
+
+    .get-involved-consultant-text {
+        height: 60%;
+    }
+
+    .get-involved-consultant-dropdown {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .get-involved-consultant-text {
+        height: 75%;
+    }
+
+    .get-involved-consultant-dropdown {
+        height: 70%;
+    }
+}

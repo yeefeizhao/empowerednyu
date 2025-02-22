@@ -1,0 +1,107 @@
+.school-graphic {
+    height: 104vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(52, 73, 168, 0.6);
+    transition: background-color 1s ease-in-out;
+    overflow: hidden;
+}
+
+.school-graphic-info {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.school-graphic-placeholder {
+    height: 35%;
+}
+
+.school-graphic-graphs {
+    display: flex;
+    flex-direction: row;
+    width: 130%;
+    margin: 0 -15%;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.school-graphic-bar-graph {
+    height: 60%;
+}
+
+.school-graphic-graph {
+    height: 100%;
+    width: 28.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: background-color 1s ease-in-out;
+}
+
+.school-graphic-graph:hover {
+    background-color: rgba(36, 57, 153, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .school-graphic-info {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .school-graphic-graph {
+        width: 35%;
+    }
+
+    .school-graphic-bar-graph {
+        height: 100%;
+        width: 100%;
+    }
+
+    .school-graphic-text1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .school-graphic-text2 {
+        color: #fff;
+        height: 8%;
+    }
+
+    .no-hover {
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .school-graphic {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .school-graphic {
+        height: 140vh;
+    }
+
+    .school-graphic-graphs {
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        height: 55%;
+    }
+
+    .school-graphic-graph {
+        width: 80%;
+    }
+}
