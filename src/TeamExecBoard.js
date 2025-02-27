@@ -24,18 +24,21 @@ function TeamExecBoard({
                     <TeamRow
                         member2={member1}
                         member3={member2}
+                        three={false}
                     />
                     <TeamRow
                         member1={member3}
                         member2={member4}
                         member3={member5}
                         member4={member6}   
+                        three={false}
                     />
                     <TeamRow
                         member1={member7}
                         member2={member8}
                         member3={member9}
                         member4={member10}
+                        three={false}
                     />
                 </div>
             </div>

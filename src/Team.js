@@ -5,7 +5,6 @@ import TeamConsultants from "./TeamConsultants";
 import photo from "./images/headshot.png";
 import alina from "./images/headshots/alina_headshot.webp";
 import alix from "./images/headshots/alix_headshot.webp";
-import anvi from "./images/headshots/anvi_headshot.webp";
 import anvita from "./images/headshots/anvita_headshot.webp";
 import arya from "./images/headshots/arya_headshot.webp";
 import caroline from "./images/headshots/caroline_headshot.webp";
@@ -13,12 +12,22 @@ import jenny from "./images/headshots/jenny_headshot.webp";
 import lily from "./images/headshots/lily_headshot.webp";
 import rivkah from "./images/headshots/rivkah_headshot.webp";
 import vincent from "./images/headshots/vincent_headshot.webp";
+import victoria from "./images/headshots/victoria_headshot.webp";
+import yifei from "./images/headshots/yifei_headshot.webp";
+import krisha from "./images/headshots/krisha_headshot.webp";
+import sruti from "./images/headshots/sruti_headshot.webp";
+import chloe from "./images/headshots/chloe_headshot.webp";
+import akshita from "./images/headshots/akshita_headshot.webp";
+import stephanie from "./images/headshots/stephanie_headshot.webp";
+import nora from "./images/headshots/nora_headshot.webp";
+import tyler from "./images/headshots/tyler_headshot.webp";
+import will from "./images/headshots/will_headshot.webp";
 
 function Team() {
     const execBoardData = [
         {
             name: "Victoria Li",
-            photo: photo,
+            photo: victoria,
             position: "President",
             year: "Master's",
             major: "Education Studies & Social Policy",
@@ -28,7 +37,7 @@ function Team() {
         },
         {
             name: "Akshita Kannan",
-            photo: photo,
+            photo: akshita,
             position: "Vice President",
             year: "Sophomore",
             major: "Economics",
@@ -38,7 +47,7 @@ function Team() {
         },
         {
             name: "Will Gerber",
-            photo: photo,
+            photo: will,
             position: "Director of Outreach",
             year: "Senior",
             major: "Biology",
@@ -48,7 +57,7 @@ function Team() {
         },
         {
             name: "Tyler Liu",
-            photo: photo,
+            photo: tyler,
             position: "Director of Operations",
             year: "Sophomore",
             major: "Finance",
@@ -58,17 +67,17 @@ function Team() {
         },
         {
             name: "Krisha Shah",
-            photo: photo,
+            photo: krisha,
             position: "Director of Events",
             year: "Sophomore",
             major: "Psychology",
-            hometown: "hometown",
+            hometown: "West Lafayette, Indiana",
             linkedin: "https://www.linkedin.com/in/krisha-shah-660222226/",
             email: "kss9291@nyu.edu",
         },
         {
             name: "Chloe Kindangen",
-            photo: photo,
+            photo: chloe,
             position: "Director of Media",
             year: "Sophomore",
             major: "Business",
@@ -78,7 +87,7 @@ function Team() {
         },
         {
             name: "Nora Cummins",
-            photo: photo,
+            photo: nora,
             position: "Director of Prof. Development",
             year: "Junior",
             major: "Economics",
@@ -88,7 +97,7 @@ function Team() {
         },
         {
             name: "Sruti Jonnalagadda",
-            photo: photo,
+            photo: sruti,
             position: "Director of Recruitment",
             year: "Junior",
             major: "Economics & Math",
@@ -98,7 +107,7 @@ function Team() {
         },
         {
             name: "Yi-Fei Zhao",
-            photo: photo,
+            photo: yifei,
             position: "Director of Technology",
             year: "Sophomore",
             major: "Business, Stats, CS",
@@ -121,7 +130,7 @@ function Team() {
     const consultantsData = [
         {
             name: "Stephanie Tinco",
-            photo: photo,
+            photo: stephanie,
             position: "Project Manager",
             year: "Senior",
             major: "Economics",
@@ -191,23 +200,13 @@ function Team() {
         },
         {
             name: "Krisha Shah",
-            photo: photo,
+            photo: krisha,
             position: "Consultant",
             year: "Sophomore",
             major: "Psychology",
             hometown: "West Lafayette, Indiana",
             linkedin: "https://www.linkedin.com/in/krisha-shah-660222226/",
             email: "kss9291@nyu.edu",
-        },
-        {
-            name: "Anvi Bhate",
-            photo: anvi,
-            position: "Consultant",
-            year: "Freshman",
-            major: "Finance and Sustainable Business",
-            hometown: "Boston, MA",
-            linkedin: "https://www.linkedin.com/in/anvi-bhate-788979188/",
-            email: "asb9991@nyu.edu",
         },
         {
             name: "Rivkah-Esther Henig",
