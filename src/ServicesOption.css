@@ -32,6 +32,7 @@
 .services-option-circle h2 {
     text-transform: uppercase;
     width: 80%;
+    text-align: center;
     color: white;
     font-size: 1rem;
     -moz-transform: translate(-50%, -50%);
@@ -51,10 +52,6 @@
 	justify-content: first baseline;
 	align-items: center;
     font-weight: 400;
-}
-
-@media screen and (max-width: 1444px) {
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -96,22 +93,17 @@
 
     .services-option-description {
         width: 100%;
-        font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width: 440px) {
     .services-option {
         width: 80%;
-        height: 50vh;
-        justify-content: space-evenly;
     }
 }
 
 @media screen and (max-width: 368px) {
     .services-option {
         width: 90%;
-        height: 45vh;
-        justify-content: space-evenly;
     }
 }

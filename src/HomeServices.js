@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeServices.css";
-import photo from "./images/home-services.jpg";
+import photo from "./images/home-services.webp";
 import { Link } from "react-router-dom";
 
 function HomeServices() {
