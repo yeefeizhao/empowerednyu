@@ -63,24 +63,16 @@ function SchoolGraphic() {
                     <div className="school-graphic-graphs">
                         <div className="school-graphic-graph no-hover">
                             <div className="school-graphic-placeholder"></div>
-                            <BarGraph
-                                className="school-graphic-bar-graph"
-                                title="Bronx High School of Science"
-                                data={bronxData}
-                            />
+                            
                         </div>
                         <div className="school-graphic-graph no-hover">
                             <div className="school-graphic-placeholder"></div>
-                            <BarGraph
-                                className="school-graphic-bar-graph"
-                                title="Dewitt Clinton High School"
-                                data={dewittData}
-                            />
+
                         </div>
                     </div>
                     <div className="school-graphic-text2">
                         <p>
-                            These two NYC high schools are just 0.5 miles apart,
+                            Dewitt Clinton High School and Bronx School of Science are just 0.5 miles apart,
                             but their public education quality sets them worlds
                             apart.
                         </p>
