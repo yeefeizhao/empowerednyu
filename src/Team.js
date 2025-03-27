@@ -142,7 +142,7 @@ function Team() {
             name: "Vincent Li",
             photo: vincent,
             position: "Consultant",
-            year: "Sophomore",
+            year: "Junior",
             major: "Economics",
             hometown: "Los Angeles, CA",
             linkedin: "https://www.linkedin.com/in/vincentli2004/",
