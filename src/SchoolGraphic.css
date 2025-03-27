@@ -49,21 +49,17 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .school-graphic {
+        height: 70vh;
+    }
+    
     .school-graphic-info {
         height: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         align-items: center;
-    }
-
-    .school-graphic-graph {
-        width: 35%;
-    }
-
-    .school-graphic-bar-graph {
-        height: 100%;
-        width: 100%;
     }
 
     .school-graphic-text1 {
@@ -80,28 +76,5 @@
 
     .no-hover {
         pointer-events: none;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .school-graphic {
-        height: 100vh;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .school-graphic {
-        height: 140vh;
-    }
-
-    .school-graphic-graphs {
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        height: 55%;
-    }
-
-    .school-graphic-graph {
-        width: 80%;
     }
 }
