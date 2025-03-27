@@ -60,16 +60,6 @@ function SchoolGraphic() {
                     <div className="school-graphic-text1">
                         <SchoolGraphicHeader />
                     </div>
-                    <div className="school-graphic-graphs">
-                        <div className="school-graphic-graph no-hover">
-                            <div className="school-graphic-placeholder"></div>
-                            
-                        </div>
-                        <div className="school-graphic-graph no-hover">
-                            <div className="school-graphic-placeholder"></div>
-
-                        </div>
-                    </div>
                     <div className="school-graphic-text2">
                         <p>
                             Dewitt Clinton High School and Bronx School of Science are just 0.5 miles apart,
