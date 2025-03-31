@@ -55,11 +55,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 40%;
 }
 
 .consultant-button-link {
     text-decoration: none;
+}
+
+.coffee-chat-link {
+    color: #3449a8;
 }
 
 .consultant-button {
@@ -82,23 +85,28 @@
     background-color: rgb(52, 73, 168, 0.3);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
     
     .get-involved-consultant-text {
-        height: 55%;
+        height: 50%;
     }
 
     .consultant-apply {
         flex-direction: column;
         align-items: first baseline;
-        justify-content: space-between;
+        height: 35%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .get-involved-consultant {
         height: 170vh;
     }
+
+    .get-involved-consultant-text {
+        height: 50%;
+    }
+
 
     .get-involved-consultant-container {
         flex-direction: column;
@@ -108,7 +116,7 @@
 
     .get-involved-consultant-info {
         width: 100%;
-        height: 60%;
+        height: 80%;
     }
 
     .get-involved-consultant-text {
@@ -132,7 +140,7 @@
     }
 
     .get-involved-consultant-text {
-        height: 60%;
+        height: 70%;
     }
 
     .get-involved-consultant-dropdown {
@@ -142,7 +150,7 @@
 
 @media screen and (max-width: 384px) {
     .get-involved-consultant-text {
-        height: 75%;
+        height: 80%;
     }
 
     .get-involved-consultant-dropdown {
