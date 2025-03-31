@@ -7,7 +7,7 @@ const consultantData = [
     {
         title: "When is the next application period?",
         content:
-            "EmpowerED is currently recruiting for Spring 2025! You'll find the application link to the left.",
+            "EmpowerED is currently recruiting for Fall 2025! You'll find the application link to the left.",
     },
     {
         title: "Can I still be a consultant if I’m not returning to campus in Spring 2025?",
@@ -58,12 +58,26 @@ function GetInvolvedConsultant() {
                             service alongside other passionate students will
                             help nonprofits achieve their full potential.
                         </p>
+                        <p>
+                            Coffee chat forms open! Sign up{" "}
+                            <a
+                                className="coffee-chat-link"
+                                href="https://forms.gle/NR2HfFB5DekteL6z9"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                here
+                            </a>
+                            .
+                        </p>
                         <p className="consultant-apply">
-                            Applications are open for the Spring 2025 cycle!{" "}
-                            <br />
-                            Follow our updates on Instagram!
-                            <br />
-                            Applications close 11/21/2024 at 11:59 PM EST.
+                            <p>
+                                Applications are closed for the Fall 2025 cycle!
+                                <br />
+                                Follow our updates on Instagram!
+                                <br />
+                                Applications close 11/21/2024 at 11:59 PM EST.
+                            </p>
                             <a
                                 className="consultant-button-link"
                                 href="https://forms.gle/GPoZmyjZkkEdsa5UA"
@@ -76,7 +90,7 @@ function GetInvolvedConsultant() {
                             </a>
                         </p>
                     </div>
-                    <img src={consultantphoto} alt="" />
+                    <img src={consultantphoto} alt="consultantphoto" />
                 </div>
                 <div className="get-involved-consultant-dropdown">
                     <GetInvolvedDropDown data={consultantData} />
