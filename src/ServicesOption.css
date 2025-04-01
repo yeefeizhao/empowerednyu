@@ -32,6 +32,7 @@
 .services-option-circle h2 {
     text-transform: uppercase;
     width: 80%;
+    height: 20%;
     text-align: center;
     color: white;
     font-size: 1rem;
@@ -40,7 +41,7 @@
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
 }
 

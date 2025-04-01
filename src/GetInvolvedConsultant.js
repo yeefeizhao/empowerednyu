@@ -10,9 +10,9 @@ const consultantData = [
             "EmpowerED is currently recruiting for Fall 2025! You'll find the application link to the left.",
     },
     {
-        title: "Can I still be a consultant if I’m not returning to campus in Spring 2025?",
+        title: "Can I still be a consultant if I’m not returning to campus in Fall 2025?",
         content:
-            "As of now, we ask that consultants be located on the NYC campus for the Fall 2024 semester in order to be a consultant. A majority of our clients operate in Eastern Standard Time (EST) so we ask that you commit to attending any EmpowerED meetings in EST and be flexible.",
+            "As of now, we ask that consultants be located on the NYC campus for the Fall 2025 semester in order to be a consultant. A majority of our clients operate in Eastern Standard Time (EST) so we ask that you commit to attending any EmpowerED meetings in EST and be flexible.",
     },
     {
         title: "What is it like to work on a project?",
@@ -62,7 +62,7 @@ function GetInvolvedConsultant() {
                             Coffee chat forms open! Sign up{" "}
                             <a
                                 className="coffee-chat-link"
-                                href="https://forms.gle/NR2HfFB5DekteL6z9"
+                                href="https://forms.gle/uiVfAGvVxdj5o1B97"
                                 target="_blank"
                                 rel="noreferrer"
                             >
