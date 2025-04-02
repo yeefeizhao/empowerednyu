@@ -76,7 +76,7 @@ function GetInvolvedConsultant() {
                                 <br />
                                 Follow our updates on Instagram!
                                 <br />
-                                Applications close 11/21/2024 at 11:59 PM EST.
+                                Applications open on 4/7/2025 at 12:00 AM EST.
                             </p>
                             <a
                                 className="consultant-button-link"
