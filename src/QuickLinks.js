@@ -17,26 +17,30 @@ function QuickLinks() {
                 </div>
 
                 <div className="quick-links-buttons">
-                    <button className="quick-link-button">
-                        <a href="https://www.empowerednyu.org">
-                            Official Website
-                        </a>
-                    </button>
-                    <button className="quick-link-button">
-                        <a href="https://forms.gle/uiVfAGvVxdj5o1B97">
-                            Coffee Chat Form
-                        </a>
-                    </button>
-                    <button className="quick-link-button">
-                        <a href="https://www.empowerednyu.org">
-                            Consultant Application
-                        </a>
-                    </button>
-                    <button className="quick-link-button">
-                        <a href="https://www.empowerednyu.org/contact">
-                            Contact Us
-                        </a>
-                    </button>
+                    <a
+                        className="quick-link-button"
+                        href="https://www.empowerednyu.org"
+                    >
+                        Official Website
+                    </a>
+                    <a
+                        className="quick-link-button"
+                        href="https://forms.gle/uiVfAGvVxdj5o1B97"
+                    >
+                        Coffee Chat Form
+                    </a>
+                    <a
+                        className="quick-link-button"
+                        href="https://www.empowerednyu.org"
+                    >
+                        Consultant Application
+                    </a>
+                    <a
+                        className="quick-link-button"
+                        href="https://www.empowerednyu.org/contact"
+                    >
+                        Contact Us
+                    </a>
                 </div>
                 <div className="links-contact-info">
                     <a
