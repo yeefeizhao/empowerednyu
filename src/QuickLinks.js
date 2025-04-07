@@ -31,7 +31,7 @@ function QuickLinks() {
                     </a>
                     <a
                         className="quick-link-button"
-                        href="https://www.empowerednyu.org"
+                        href="https://forms.gle/ZBUSmZansgeyPR6J6"
                     >
                         Consultant Application
                     </a>
