@@ -33,7 +33,7 @@ function QuickLinks() {
                         className="quick-link-button"
                         href="https://forms.gle/ZBUSmZansgeyPR6J6"
                     >
-                        Consultant Application
+                        S25 Consultant Application
                     </a>
                     <a
                         className="quick-link-button"
