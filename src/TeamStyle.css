@@ -1,12 +1,11 @@
-.consultants {
-    height: 210vh;
+.team {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.consultants-container {
+.team-container {
     width: 85%;
     height: 95%;
     display: flex;
@@ -15,19 +14,19 @@
     align-items: center;
 }
 
-.consultants-text {
-    width: 100%;
+.team-text {
+	width: 100%;
     height: 5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: first baseline;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: first baseline;
     font-size: 0.7rem;
     font-weight: 200;
     text-transform: uppercase;
 }
 
-.consultants-rows {
+.team-rows {
     width: 60vw;
     height: 100%;
     display: flex;
@@ -36,20 +35,9 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1270px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
 @media screen and (max-width: 575px) {
-    .consultants {
+	.team {
         height: 420vh;
     }
 }
 
-@media screen and (max-width: 384px) {
-}

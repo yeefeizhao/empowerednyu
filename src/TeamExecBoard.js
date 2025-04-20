@@ -1,6 +1,6 @@
 import React from "react";
 import TeamRow from "./TeamRow";
-import "./TeamExecBoard.css";
+import "./TeamStyle.css";
 
 function TeamExecBoard({
     member1,
@@ -15,12 +15,12 @@ function TeamExecBoard({
     member10,
 }) {
     return (
-        <div className="execboard">
-            <div className="execboard-container">
-                <div className="execboard-text">
+        <div className="team" style={{ height: "210vh" }}>
+            <div className="team-container">
+                <div className="team-text">
                     <h2>Executive Board</h2>
                 </div>
-                <div className="execboard-rows">
+                <div className="team-rows">
                     <TeamRow
                         member2={member1}
                         member3={member2}
@@ -30,7 +30,7 @@ function TeamExecBoard({
                         member1={member3}
                         member2={member4}
                         member3={member5}
-                        member4={member6}   
+                        member4={member6}
                         three={false}
                     />
                     <TeamRow

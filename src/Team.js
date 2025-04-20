@@ -22,6 +22,8 @@ import stephanie from "./images/headshots/stephanie_headshot.webp";
 import nora from "./images/headshots/nora_headshot.webp";
 import tyler from "./images/headshots/tyler_headshot.webp";
 import will from "./images/headshots/will_headshot.webp";
+import TeamPM from "./TeamPM";
+import TeamSeniorConsultants from "./TeamSeniorConsultants";
 
 function Team() {
     const execBoardData = [
@@ -254,6 +256,28 @@ function Team() {
                 member8={execBoardData[7]}
                 member9={execBoardData[8]}
                 member10={execBoardData[9]}
+            />
+
+            <TeamPM
+                member1={execBoardData[0]}
+                member2={execBoardData[1]}
+                member3={execBoardData[2]}
+                member4={execBoardData[3]}
+            />
+
+            <TeamSeniorConsultants
+                member1={execBoardData[0]}
+                member2={execBoardData[1]}
+                member3={execBoardData[2]}
+                member4={execBoardData[3]}
+                member5={execBoardData[4]}
+                member6={execBoardData[5]}
+                member7={execBoardData[6]}
+                member8={execBoardData[7]}
+                member9={execBoardData[8]}
+                member10={execBoardData[9]}
+                member11={execBoardData[10]}
+                member12={execBoardData[11]}
             />
 
             <TeamConsultants
