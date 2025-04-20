@@ -22,18 +22,6 @@
     );
 }
 
-@media screen and (max-width: 1444px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
 @media screen and (max-width: 575px) {
     .buffer-section {
         height: 30vh;

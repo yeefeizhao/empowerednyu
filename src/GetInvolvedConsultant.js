@@ -69,6 +69,17 @@ function GetInvolvedConsultant() {
                                 here
                             </a>
                             .
+                            <br />
+                            Virtual info session 4/9/2025 @ 6pm{" "}
+                            <a
+                                className="info-sesh-link"
+                                href="https://nyu.zoom.us/j/99511170738"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                here
+                            </a>
+                            .
                         </p>
                         <p className="consultant-apply">
                             <p>

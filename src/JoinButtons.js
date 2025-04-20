@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './JoinButton.css'
+import './JoinButtons.css'
 
 function JoinButtons() {
     const goToTop = () => {
