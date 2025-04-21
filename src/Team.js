@@ -195,7 +195,7 @@ function Team() {
             year: "Sophomore",
             major: "Economics & Strategic Thinking",
             hometown: "Seoul, South Korea",
-            linkedin: "https://www.linkedin.com/",
+            linkedin: "https://www.linkedin.com/in/jenny-yeonjae-kim-82699932a/",
             email: "jennykim@nyu.edu",
         },
         {
