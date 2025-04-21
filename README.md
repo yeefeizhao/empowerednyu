@@ -1,1 +1,1 @@
-Official site for EmnpowerED Consulting
+Official site for EmpowerED Consulting
