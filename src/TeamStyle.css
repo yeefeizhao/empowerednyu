@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.exec, .senior-consultants, .consultants {
+    height: 145vh;
+}
+
+.pm {
+    height: 80vh;
+}
+
 .team-container {
     width: 85%;
     height: 95%;

@@ -74,7 +74,7 @@ function TeamRow({ member1, member2, member3, member4, three }) {
             ) : (
                 <div className="team-row-container-three">
                     {!isMobileView ? (
-                        <div className="team-row-container-three">
+                        <div className="team-row-members-three">
                             {member1 ? (
                                 <TeamMemberCard
                                     name={member1.name}

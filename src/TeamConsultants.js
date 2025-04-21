@@ -16,7 +16,7 @@ function TeamConsultants({
     member11,
 }) {
     return (
-        <div className="team" style={{ height: "210vh" }}>
+        <div className="team consultants">
             <div className="team-container">
                 <div className="team-text">
                     <h2>Consultants</h2>
@@ -26,20 +26,14 @@ function TeamConsultants({
                         member1={member1}
                         member2={member2}
                         member3={member3}
-                        three={true}
-                    />
-                    <TeamRow
-                        member1={member4}
-                        member2={member5}
-                        member3={member6}
-                        member4={member7}
+                        member4={member4}
                         three={false}
                     />
-                    <TeamRow 
-                        member1={member8}
-                        member2={member9}
-                        member3={member10}
-                        member4={member11}
+                    <TeamRow
+                        member1={member5}
+                        member2={member6}
+                        member3={member7}
+                        member4={member8}
                         three={false}
                     />
                 </div>

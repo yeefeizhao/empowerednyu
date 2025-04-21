@@ -9,7 +9,7 @@ function TeamPM({
     member4,
 }) {
     return (
-        <div className="team" style={{ height: "80vh" }}>
+        <div className="team pm">
             <div className="team-container">
                 <div className="team-text">
                     <h2>Project Managers</h2>
