@@ -19,7 +19,11 @@ function ContactHeader() {
                 </h1>
 
                 <h3 className="contact-header-subtitle">
-                    Reach out to us. We'd love to hear from you.
+                    Email us at{" "}
+                    <span>empoweredconsultingnyu (at) gmail (dot) com</span>{" "}
+                    <br /> or reach out to us via the form. We'd love to hear
+                    from you.
+                    <br />
                 </h3>
             </div>
         </div>
