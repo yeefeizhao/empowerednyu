@@ -1,5 +1,5 @@
 .services-approach {
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,13 +61,17 @@
         width: 100%;
     }
 
+    .services-approach-text h2 {
+        height: 10%;
+    }
+
     .services-approach-text p {
-        height: 50%;
+        height: 40%;
         width: 100%;
     }
 
     .services-approach-container img {
-        height: 50%;
+        height: 45%;
         width: auto;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     height: 100%;
 }
 
@@ -10,101 +10,145 @@
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    border-top: 2px solid rgba(52, 73, 168, 0.2);
 }
 
-.services-option-circle {
-    width: 80%;
-    height: 0;
-    padding-bottom: 80%;
-    border-radius: 50%;
-    background: rgb(52, 73, 168);
-    background: linear-gradient(
-        135deg,
-        rgba(52, 73, 168, 0.6) 35%,
-        rgba(234, 247, 217, 0.6) 100%
-    );
-    position: relative;
+.services-option-number {
+    width: 50%;
+    align-self: first baseline;
 }
 
-.services-option-circle h2 {
+.services-option-number h2 {
     text-transform: uppercase;
-    width: 80%;
-    height: 20%;
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 55%;
-    left: 50%;
+    background: -webkit-linear-gradient(
+        rgba(52, 73, 168, 0.6),
+        rgba(234, 247, 217, 0.6)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight: 700;
 }
 
-.services-option-description {
-    width: 100%;
-	height: 30%;
-	display: flex;
-	flex-direction: column;
-	justify-content: first baseline;
-	align-items: center;
+.services-option-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.services-option-content h2 {
+    text-transform: none;
+    font-size: 2.7rem;
+    height: 23%;
     font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .services-option-circle h2 {
-        font-size: 0.8rem;
+.services-option-content p {
+    font-size: 1.2rem;
+    height: 52%;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1270px) {
+    .services-option-number h2 {
+        font-size: 4rem;
+    }
+
+    .services-option-content h2 {
+        font-size: 2rem;
+    }
+
+    .services-option-content p {
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .services-option {
-        width: 35%;
+@media screen and (max-width: 928px) {
+    .services-option-content h2 {
+        font-size: 1.6rem;
     }
 
+    .services-option-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+	.services-option-content {
+        justify-content: center;
+    }
+
+    .services-option-number h2 {
+        font-size: 3rem;
+    }
+
+    .services-option-content h2 {
+        font-size: 1.3rem;
+        height: 20%;
+    }
+    
+    .services-option-content p {
+        font-size: 0.75rem;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .services-option-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services-option-number {
+        width: 20%;
+        height: 20%;
+        align-self: flex-start;
+    }
+    
+    .services-option-number h2 {
+        font-size: 2.5rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .services-option-content {
+        width: 80%;
+        height: 80%;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .services-option-number {
+        width: 30%;
+        height: 20%;
+    }
+
+    .services-option-content {
+        width: 100%;
         height: 80%;
     }
 
-    .services-option-circle h2 {
-        width: 90%;
+    .services-option-number h2 {
+        font-size: 2rem;
     }
 
-    .services-option-description {
-        width: 80%;
-        font-size: 0.8rem;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .services-option {
-        width: 60%;
-        height: 50vh;
-        justify-content: space-evenly;
-    }
-
-    .services-option-circle {
-        width: 85%;
-        padding-bottom: 85%;
-    }
-
-    .services-option-description {
+    .services-option-content h2 {
         width: 100%;
+        font-size: 1rem;
     }
-}
 
-@media screen and (max-width: 440px) {
-    .services-option {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 368px) {
-    .services-option {
-        width: 90%;
+    .services-option-content p {
+        width: 100%;
+        font-size: 0.65rem;
     }
 }
