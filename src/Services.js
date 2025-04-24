@@ -2,7 +2,6 @@ import React from "react";
 import ServicesHeader from "./ServicesHeader";
 import ServicesApproach from "./ServicesApproach";
 import ServicesOfferings from "./ServicesOfferings";
-import BufferSection from "./BufferSection";
 
 function Services() {
     return (
@@ -10,7 +9,6 @@ function Services() {
             <div className="services-container">
                 <ServicesHeader />
                 <ServicesApproach />
-                <BufferSection />
                 <ServicesOfferings />
             </div>
         </div>

@@ -70,7 +70,7 @@ function GetInvolvedConsultant() {
                             </a>
                             .
                         </p>
-                        <p className="consultant-apply">
+                        <div className="consultant-apply">
                             <p>
                                 Applications are open for the Fall 2025 cycle!
                                 <br />
@@ -88,7 +88,7 @@ function GetInvolvedConsultant() {
                                     Application
                                 </button>
                             </a>
-                        </p>
+                        </div>
                     </div>
                     <img src={consultantphoto} alt="consultantphoto" />
                 </div>

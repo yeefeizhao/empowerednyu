@@ -2,7 +2,7 @@ import React from "react";
 import "./ServicesOfferings.css";
 import ServicesOption from "./ServicesOption";
 
-const servicesData1 = [
+const servicesData = [
     {
         title: "Market Analysis",
         description:
@@ -13,9 +13,6 @@ const servicesData1 = [
         description:
             "Measuring success is key to driving meaningful change. Too often, organizations launch well-intentioned initiatives without robust evaluation systems. As a diverse student team, we help design frameworks to track progress, assess social outcomes, and refine strategies for greater impact.",
     },
-];
-
-const servicesData2 = [
     {
         title: "Retention & Recruitment",
         description:
@@ -38,19 +35,11 @@ function ServicesOfferings() {
         <div className="services-offerings">
             <div className="services-offerings-container">
                 <h2>Our services</h2>
-                <div className="services-offerings-row">
-                    {servicesData1.map((item, index) => (
+                <div className="services-offerings-list">
+                    {servicesData.map((item, index) => (
                         <ServicesOption
                             key={index}
-                            title={item.title}
-                            description={item.description}
-                        />
-                    ))}
-                </div>
-                <div className="services-offerings-row">
-                    {servicesData2.map((item, index) => (
-                        <ServicesOption
-                            key={index}
+                            number={index + 1}
                             title={item.title}
                             description={item.description}
                         />
