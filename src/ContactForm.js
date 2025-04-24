@@ -72,9 +72,6 @@ function ContactForm() {
     return (
         <div className="contact-form">
             <div className="contact-form-container">
-                <div className="contact-form-text">
-                    {/* empoweredconsultingnyu@gmail.com */}
-                </div>
                 <form onSubmit={sendEmail} className="contact-form-fields">
                     <label htmlFor="name">Full Name</label>
                     <input

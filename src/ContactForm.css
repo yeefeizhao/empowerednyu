@@ -17,14 +17,8 @@
 }
 
 .contact-form-fields {
+    height: 90%;
     width: 65%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.contact-form-text {
-     width: 35%;
     display: flex;
     flex-direction: column;
     text-align: left;
