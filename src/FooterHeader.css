@@ -24,12 +24,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .footer-header h2 {
+		font-size: 3.5rem;
+	}
 }
 
 @media screen and (max-width: 575px) {
     .footer-header h2 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 }
 
