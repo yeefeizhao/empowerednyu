@@ -2,7 +2,7 @@ import React from "react";
 import TeamRow from "./TeamRow";
 import "./TeamStyles.css";
 
-function TeamConsultants({
+function TeamSeniorConsultants({
     member1,
     member2,
     member3,
@@ -13,10 +13,10 @@ function TeamConsultants({
     member8,
 }) {
     return (
-        <div className="team consultants">
+        <div className="team senior-consultants">
             <div className="team-container">
                 <div className="team-text">
-                    <h2>Consultants</h2>
+                    <h2>Senior Consultants</h2>
                 </div>
                 <div className="team-rows">
                     <TeamRow
@@ -38,4 +38,5 @@ function TeamConsultants({
         </div>
     );
 }
-export default TeamConsultants;
+
+export default TeamSeniorConsultants;

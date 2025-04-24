@@ -2,35 +2,24 @@ import React from "react";
 import TeamRow from "./TeamRow";
 import "./TeamStyles.css";
 
-function TeamConsultants({
+function TeamPM({
     member1,
     member2,
     member3,
     member4,
-    member5,
-    member6,
-    member7,
-    member8,
 }) {
     return (
-        <div className="team consultants">
+        <div className="team pm">
             <div className="team-container">
                 <div className="team-text">
-                    <h2>Consultants</h2>
+                    <h2>Project Managers</h2>
                 </div>
                 <div className="team-rows">
                     <TeamRow
                         member1={member1}
                         member2={member2}
                         member3={member3}
-                        member4={member4}
-                        three={false}
-                    />
-                    <TeamRow
-                        member1={member5}
-                        member2={member6}
-                        member3={member7}
-                        member4={member8}
+                        member4={member4}   
                         three={false}
                     />
                 </div>
@@ -38,4 +27,5 @@ function TeamConsultants({
         </div>
     );
 }
-export default TeamConsultants;
+
+export default TeamPM;
