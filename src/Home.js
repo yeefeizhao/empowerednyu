@@ -5,7 +5,7 @@ import HomeLogos from "./HomeLogos";
 import SchoolGraphic from "./SchoolGraphic";
 import HomeTestimonial from "./HomeTestimonial";
 import HomeServices from "./HomeServices";
-import BufferSection from './BufferSection'
+import HomeCurrentPartners from "./HomeCurrentPartners";
 
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
             <HomeLogos />
             <SchoolGraphic />
             <HomeServices />
-            <BufferSection />
+            <HomeCurrentPartners />
             <HomeTestimonial />
         </div>
     );
