@@ -11,6 +11,8 @@ function TeamSeniorConsultants({
     member6,
     member7,
     member8,
+    member9,
+    member10,
 }) {
     return (
         <div className="team senior-consultants">
