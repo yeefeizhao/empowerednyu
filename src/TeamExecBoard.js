@@ -28,8 +28,7 @@ function TeamExecBoard({
                         member1={member4}
                         member2={member5}
                         member3={member6}
-                        member4={member7}
-                        three={false}
+                        three={true}
                     />
                 </div>
             </div>

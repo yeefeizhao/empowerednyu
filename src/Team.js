@@ -2,6 +2,8 @@ import React from "react";
 import TeamHeader from "./TeamHeader";
 import TeamExecBoard from "./TeamExecBoard";
 import TeamConsultants from "./TeamConsultants";
+import TeamPM from "./TeamPM";
+import TeamSeniorConsultants from "./TeamSeniorConsultants";
 import alina from "./images/headshots/alina_headshot.webp";
 import alix from "./images/headshots/alix_headshot.webp";
 import anvita from "./images/headshots/anvita_headshot.webp";
@@ -18,21 +20,29 @@ import chloe from "./images/headshots/chloe_headshot.webp";
 import akshita from "./images/headshots/akshita_headshot.webp";
 import stephanie from "./images/headshots/stephanie_headshot.webp";
 import nora from "./images/headshots/nora_headshot.webp";
-import tyler from "./images/headshots/tyler_headshot.webp";
-import TeamPM from "./TeamPM";
-import TeamSeniorConsultants from "./TeamSeniorConsultants";
+
 
 function Team() {
     const execBoardData = [
         {
             name: "Victoria Li",
             photo: victoria,
-            position: "President",
+            position: "Co-President",
             year: "Master's",
             major: "Education Studies & Social Policy",
             hometown: "Highland Park, NJ",
             linkedin: "https://www.linkedin.com/in/victoria-li-a6a366257/",
             email: "victoria.li@nyu.edu",
+        },
+        {
+            name: "Sruti Jonnalagadda",
+            photo: sruti,
+            position: "Co-President",
+            year: "Senior",
+            major: "Economics & Math",
+            hometown: "Pleasanton, California",
+            linkedin: "https://www.linkedin.com/in/srutij/",
+            email: "sj3721@nyu.edu",
         },
         {
             name: "Akshita Kannan",
@@ -43,16 +53,6 @@ function Team() {
             hometown: "North Royalton, OH",
             linkedin: "https://www.linkedin.com/in/akshita-kannan/",
             email: "ak10524@nyu.edu",
-        },
-        {
-            name: "Sruti Jonnalagadda",
-            photo: sruti,
-            position: "Director of Recruitment",
-            year: "Senior",
-            major: "Economics & Math",
-            hometown: "Pleasanton, California",
-            linkedin: "https://www.linkedin.com/in/srutij/",
-            email: "sj3721@nyu.edu",
         },
         {
             name: "Nora Cummins",
@@ -73,16 +73,6 @@ function Team() {
             hometown: "Jakarta, Indonesia",
             linkedin: "https://www.linkedin.com/in/chloekindangen/",
             email: "ck3469@stern.nyu.edu",
-        },
-        {
-            name: "Tyler Liu",
-            photo: tyler,
-            position: "Director of Growth",
-            year: "Junior",
-            major: "Finance",
-            hometown: "Taipei, Taiwan",
-            linkedin: "https://www.linkedin.com/in/tyler-m-liu/",
-            email: "tyler.liu@stern.nyu.edu",
         },
         {
             name: "Yi-Fei Zhao",
@@ -315,7 +305,6 @@ function Team() {
                 member4={execBoardData[3]}
                 member5={execBoardData[4]}
                 member6={execBoardData[5]}
-                member7={execBoardData[6]}
             />
 
             <TeamPM
