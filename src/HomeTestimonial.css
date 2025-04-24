@@ -45,6 +45,7 @@
     background: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: #000;
 }
 
 .testimonial-button:hover {
