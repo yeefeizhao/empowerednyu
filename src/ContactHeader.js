@@ -5,7 +5,7 @@ function ContactHeader() {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        setLoaded(true); // Trigger animation after component mounts
+        setLoaded(true);
     }, []);
     return (
         <div className="contact-header">

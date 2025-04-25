@@ -72,11 +72,11 @@ function GetInvolvedConsultant() {
                         </p>
                         <div className="consultant-apply">
                             <p>
-                                Applications are open for the Fall 2025 cycle!
+                                Applications are closed for the Fall 2025 cycle.
                                 <br />
                                 Follow our updates on Instagram!
                                 <br />
-                                Applications close on 4/11/2025 at 11:59 PM EST.
+                                Applications closed on 4/11/2025 at 11:59 PM EST.
                             </p>
                             <a
                                 className="consultant-button-link"

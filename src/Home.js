@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import HomeHeader from "./HomeHeader";
 import HomeLogos from "./HomeLogos";
 import SchoolGraphic from "./SchoolGraphic";
