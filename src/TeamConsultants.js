@@ -11,9 +11,6 @@ function TeamConsultants({
     member6,
     member7,
     member8,
-    member9,
-    member10,
-    member11,
 }) {
     return (
         <div className="team consultants">
@@ -26,20 +23,14 @@ function TeamConsultants({
                         member1={member1}
                         member2={member2}
                         member3={member3}
-                        three={true}
-                    />
-                    <TeamRow
-                        member1={member4}
-                        member2={member5}
-                        member3={member6}
-                        member4={member7}
+                        member4={member4}
                         three={false}
                     />
                     <TeamRow
-                        member1={member8}
-                        member2={member9}
-                        member3={member10}
-                        member4={member11}
+                        member1={member5}
+                        member2={member6}
+                        member3={member7}
+                        member4={member8}
                         three={false}
                     />
                 </div>
