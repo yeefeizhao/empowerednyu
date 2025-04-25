@@ -19,6 +19,7 @@ import chloe from "./images/headshots/chloe_headshot.webp";
 import akshita from "./images/headshots/akshita_headshot.webp";
 import stephanie from "./images/headshots/stephanie_headshot.webp";
 import nora from "./images/headshots/nora_headshot.webp";
+import headshot from "./images/headshot.png";
 
 function Team() {
     const execBoardData = [
@@ -107,7 +108,7 @@ function Team() {
         },
         {
             name: "Leon Dang",
-            photo: stephanie,
+            photo: headshot,
             position: "Project Manager",
             year: "Junior",
             major: "Finance & Data Science",
@@ -117,7 +118,7 @@ function Team() {
         },
         {
             name: "Alex Li",
-            photo: stephanie,
+            photo: headshot,
             position: "Project Manager",
             year: "Sophomore",
             major: "Finance & Data Science",
@@ -212,8 +213,8 @@ function Team() {
 
     const consultantsData = [
         {
-            name: "Vincent Li",
-            photo: vincent,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Senior",
             major: "Economics",
@@ -222,8 +223,8 @@ function Team() {
             email: "vl2271@nyu.edu",
         },
         {
-            name: "Arya Nadella",
-            photo: arya,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Maths & Economics",
@@ -232,8 +233,8 @@ function Team() {
             email: "an4057@nyu.edu",
         },
         {
-            name: "Lily Liang",
-            photo: lily,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Sophomore",
             major: "Data Science & Management",
@@ -242,8 +243,8 @@ function Team() {
             email: "jl15890@stern.nyu.edu",
         },
         {
-            name: "Anvita Gurumurthy",
-            photo: anvita,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Finance & Management",
@@ -252,8 +253,8 @@ function Team() {
             email: "ag9696@stern.nyu.edu",
         },
         {
-            name: "Jenny Kim",
-            photo: jenny,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Economics & Strategic Thinking",
@@ -262,8 +263,8 @@ function Team() {
             email: "jennykim@nyu.edu",
         },
         {
-            name: "Rivkah-Esther Henig",
-            photo: rivkah,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Finance & Accounting",
@@ -272,8 +273,8 @@ function Team() {
             email: "rh3801@stern.nyu.edu",
         },
         {
-            name: "Alina Panteleeva",
-            photo: alina,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Math & Economics",
@@ -282,8 +283,8 @@ function Team() {
             email: "ap8383@nyu.edu",
         },
         {
-            name: "Alix Yoon",
-            photo: alix,
+            name: "Temp",
+            photo: headshot,
             position: "Consultant",
             year: "Junior",
             major: "Finance & Data Science",
