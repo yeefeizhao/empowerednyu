@@ -1,0 +1,26 @@
+.not-found {
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.not-found-container {
+	height: 60%;
+	width: 85%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: first baseline;
+	flex-direction: column;
+}
+
+.not-found-container h1 {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.go-home {
+	text-decoration: underline;
+	color: black;
+}
