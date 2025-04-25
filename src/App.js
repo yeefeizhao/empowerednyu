@@ -15,6 +15,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import { AnimatePresence, motion } from "framer-motion";
 import QuickLinks from "./QuickLinks";
+import NotFound from "./NotFound";
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -71,6 +72,7 @@ function AnimatedRoutes() {
                     }
                 />
                 <Route path="/links" element={<QuickLinks />} />
+                <Route path='*' exact={true} element={<NotFound />} />
             </Routes>
         </AnimatePresence>
     );
