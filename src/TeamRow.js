@@ -128,8 +128,6 @@ function TeamRow({ member1, member2, member3, member4, three }) {
                                         email={member1.email}
                                     />
                                 ) : null}
-                            </div>
-                            <div className={"team-row-members"}>
                                 {member2 ? (
                                     <TeamMemberCard
                                         name={member2.name}
@@ -142,6 +140,8 @@ function TeamRow({ member1, member2, member3, member4, three }) {
                                         email={member2.email}
                                     />
                                 ) : null}
+                            </div>
+                            <div className={"team-row-members"}>
                                 {member3 ? (
                                     <TeamMemberCard
                                         name={member3.name}

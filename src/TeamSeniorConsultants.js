@@ -1,7 +1,6 @@
 import React from "react";
 import TeamRow from "./TeamRow";
 import "./TeamStyles.css";
-import Team from "./Team";
 
 function TeamSeniorConsultants({
     member1,

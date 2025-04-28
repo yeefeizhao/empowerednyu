@@ -5,11 +5,11 @@
     align-items: center;
 }
 
-.exec, .consultants {
+.exec {
     height: 145vh;
 }
 
-.senior-consultants {
+.consultants, .senior-consultants {
     height: 210vh;
 }
 
@@ -48,7 +48,20 @@
 }
 
 @media screen and (max-width: 575px) {
-	.team {
-        height: 420vh;
+	.consultants {
+        height: 320vh;
     }
+
+    .senior-consultants {
+        height: 255vh;
+    }
+
+    .exec {
+        height: 210vh;
+    }
+
+    .pm {
+        height: 105vh;
+    }
+
 }
