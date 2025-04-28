@@ -5,8 +5,12 @@
     align-items: center;
 }
 
-.exec, .consultants, .senior-consultants{
+.exec, .consultants {
     height: 145vh;
+}
+
+.senior-consultants {
+    height: 210vh;
 }
 
 .pm {

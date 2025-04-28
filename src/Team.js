@@ -97,14 +97,14 @@ function Team() {
             email: "skt9886@nyu.edu",
         },
         {
-            name: "Caroline Chan",
-            photo: caroline,
+            name: "Chloe Kindangen",
+            photo: chloe,
             position: "Project Manager",
             year: "Junior",
-            major: "Economics",
-            hometown: "Hong Kong",
-            linkedin: "https://www.linkedin.com/in/caroline-chan-a98297234/",
-            email: "chc9857@nyu.edu",
+            major: "Business",
+            hometown: "Jakarta, Indonesia",
+            linkedin: "https://www.linkedin.com/in/chloekindangen/",
+            email: "ck3469@stern.nyu.edu",
         },
         {
             name: "Leon Dang",
@@ -132,7 +132,7 @@ function Team() {
         {
             name: "Vincent Li",
             photo: vincent,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Senior",
             major: "Economics",
             hometown: "Los Angeles, CA",
@@ -142,7 +142,7 @@ function Team() {
         {
             name: "Arya Nadella",
             photo: arya,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Maths & Economics",
             hometown: "Hyderabad, India",
@@ -150,9 +150,19 @@ function Team() {
             email: "an4057@nyu.edu",
         },
         {
+            name: "Caroline Chan",
+            photo: caroline,
+            position: "Senior Consultant",
+            year: "Junior",
+            major: "Economics",
+            hometown: "Hong Kong",
+            linkedin: "https://www.linkedin.com/in/caroline-chan-a98297234/",
+            email: "chc9857@nyu.edu",
+        },
+        {
             name: "Lily Liang",
             photo: lily,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Sophomore",
             major: "Data Science & Management",
             hometown: "Toronto, Canada",
@@ -162,7 +172,7 @@ function Team() {
         {
             name: "Anvita Gurumurthy",
             photo: anvita,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Finance & Management",
             hometown: "Basking Ridge, NJ",
@@ -172,7 +182,7 @@ function Team() {
         {
             name: "Jenny Kim",
             photo: jenny,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Economics & Strategic Thinking",
             hometown: "Seoul, South Korea",
@@ -182,7 +192,7 @@ function Team() {
         {
             name: "Rivkah-Esther Henig",
             photo: rivkah,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Finance & Accounting",
             hometown: "Brooklyn, NY",
@@ -192,7 +202,7 @@ function Team() {
         {
             name: "Alina Panteleeva",
             photo: alina,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Math & Economics",
             hometown: "Moscow, Russia",
@@ -202,7 +212,7 @@ function Team() {
         {
             name: "Alix Yoon",
             photo: alix,
-            position: "Consultant",
+            position: "Senior Consultant",
             year: "Junior",
             major: "Finance & Data Science",
             hometown: "Fort Lee, New Jersey",
@@ -321,6 +331,7 @@ function Team() {
                 member6={seniorConsultantsData[5]}
                 member7={seniorConsultantsData[6]}
                 member8={seniorConsultantsData[7]}
+                member9={seniorConsultantsData[8]}
             />
 
             <TeamConsultants
