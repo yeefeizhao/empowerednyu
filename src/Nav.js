@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./images/empowered-logo.avif";
+import logo from "./images/empowered-logo.png";
 import "./Nav.css";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
