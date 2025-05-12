@@ -11,6 +11,7 @@ function TeamSeniorConsultants({
     member6,
     member7,
     member8,
+    member9
 }) {
     return (
         <div className="team senior-consultants">
@@ -32,6 +33,10 @@ function TeamSeniorConsultants({
                         member3={member7}
                         member4={member8}
                         three={false}
+                    />
+                    <TeamRow
+                        member1={member9}
+                        three={true}
                     />
                 </div>
             </div>
