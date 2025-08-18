@@ -24,7 +24,7 @@
     border-top: solid rgba(0, 0, 0, 0.1) 1px;
     width: 85%;
     overflow: hidden;
-    padding: 1.5rem 0;
+    padding: 1.1rem 0;
     background: #fff;
     white-space: nowrap;
     position: relative;
@@ -42,22 +42,25 @@
 
 .logos-container:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
 }
 
-.logos-container {
+.logos-container:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
 }
 
 .logos-slide {
     display: inline-block;
     animation: 35s slide infinite linear;
     will-change: transform;
+    height: 70px;
 }
 
 .logos-slide img {
-    height: 50px;
-    margin: 0 40px;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    object-fit: contain;
     will-change: transform;
 }
