@@ -1,9 +1,11 @@
 .team-row {
-    height: 65vh;
+    height: auto;
+    min-height: 40vh;
     width: 85vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .team-row-container {
@@ -59,19 +61,74 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .team-row {
+        min-height: 35vh;
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-row {
+        min-height: 70vh;
+        padding: 2rem 0;
+    }
+    
+    .team-row-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .team-row-members {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .team-row-container-three {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .team-row-members-three {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .team-row {
-        height: 130vh;
+        height: auto;
+        min-height: 60vh;
+        padding: 2rem 0;
+        width: 100vw;
     }
 
     .team-row-container {
         flex-direction: column;
+        gap: 1.5rem;
     }
     .team-row-members {
         width: 100%;
+        flex-direction: column;
+        gap: 1.5rem;
     }
 
     .team-row-container-three {
         flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .team-row-members-three {
+        flex-direction: column;
+        gap: 1.5rem;
     }
 }
