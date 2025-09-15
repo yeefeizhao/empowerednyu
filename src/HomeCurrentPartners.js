@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeCurrentPartners.css";
+import undisclosed from "./images/current/undisclosed.png";
 import etm from "./images/current/etm.jpg";
 import farm from "./images/current/farm-school.jpg";
 import luni from "./images/current/luniemere.png";
@@ -12,9 +13,14 @@ function HomeCurrentPartners() {
                     <h2>Current Partners</h2>
                 </div>
                 <div className="current-partners-logos">
-                    <img src={etm} alt="ETM" />
-                    <img src={farm} alt="Farm School" />
-                    <img src={luni} alt="Luniemere" />
+                    <div className="current-partners-row">
+                        <img src={luni} alt="Luniemere" />
+                        <img src={etm} alt="ETM" />
+                    </div>
+                    <div className="current-partners-row">
+                        <img src={farm} alt="Farm School" />
+                        <img src={undisclosed} alt="Undisclosed Client" />
+                    </div>
                 </div>
                 <div className="current-partners-end"></div>
             </div>
