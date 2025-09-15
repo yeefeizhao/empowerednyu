@@ -6,15 +6,21 @@
 }
 
 .senior-consultants{
-    height: 145vh;
+    height: auto;
+    min-height: 100vh;
+    padding: 4rem 0;
 }
 
 .exec, .consultants {
-    height: 210vh;
+    height: auto;
+    min-height: 120vh;
+    padding: 4rem 0;
 }
 
 .pm {
-    height: 80vh;
+    height: auto;
+    min-height: 60vh;
+    padding: 3rem 0;
 }
 
 .team-container {
@@ -47,8 +53,63 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .team-rows {
+        width: 75vw;
+    }
+    
+    .senior-consultants, .exec, .consultants {
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-rows {
+        width: 85vw;
+    }
+    
+    .team-container {
+        width: 95%;
+    }
+    
+    .senior-consultants, .exec, .consultants {
+        padding: 2.5rem 0;
+    }
+    
+    .pm {
+        padding: 2rem 0;
+    }
+}
+
 @media screen and (max-width: 575px) {
 	.team {
-        height: 420vh;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .team-rows {
+        width: 95vw;
+    }
+    
+    .senior-consultants {
+        min-height: 120vh;
+        padding: 2rem 0;
+    }
+    
+    .exec, .consultants {
+        min-height: 150vh;
+        padding: 2rem 0;
+    }
+    
+    .pm {
+        min-height: 80vh;
+        padding: 1.5rem 0;
+    }
+    
+    .team-text {
+        font-size: 0.6rem;
+        height: auto;
+        align-items: center;
+        margin-bottom: 1rem;
     }
 }
