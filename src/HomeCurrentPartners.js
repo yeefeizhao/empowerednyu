@@ -1,8 +1,9 @@
 import React from "react";
 import "./HomeCurrentPartners.css";
-import jany from "./images/current/jany.png";
-import amal from "./images/current/amal_aliance.jpg";
-import access from "./images/current/access_theater.png";
+import brac from "./images/current/brac.png";
+import etm from "./images/current/etm.jpg";
+import farm from "./images/current/farm-school.jpg";
+import luni from "./images/current/luniemere.png";
 
 function HomeCurrentPartners() {
     return (
@@ -12,10 +13,15 @@ function HomeCurrentPartners() {
                     <h2>Current Partners</h2>
                 </div>
                 <div className="current-partners-logos">
-						<img src={jany} alt="JANY" />
-						<img src={amal} alt="Amal Aliance" />
-						<img src={access} alt="Access Theater" />
-				</div>
+                    <div className="current-partners-row">
+                        <img src={brac} alt="BRAC" />
+                        <img src={etm} alt="ETM" />
+                    </div>
+                    <div className="current-partners-row">
+                        <img src={farm} alt="Farm School" />
+                        <img src={luni} alt="Luniemere" />
+                    </div>
+                </div>
                 <div className="current-partners-end"></div>
             </div>
         </div>
