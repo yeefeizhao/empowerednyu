@@ -1,6 +1,6 @@
 import React from "react";
 import "./QuickLinks.css";
-import logo from "./images/empowered-logo.avif";
+import logo from "./images/empowered-logo.png";
 import linkedin from "./images/quick-links/linkedin.png";
 import instagram from "./images/quick-links/instagram.png";
 import facebook from "./images/quick-links/facebook.png";

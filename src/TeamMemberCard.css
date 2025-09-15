@@ -93,20 +93,20 @@
 
 @media screen and (max-width: 768px) {
     .member-card {
-        width: 47vw;
-        height: 65vh;
+        width: 40vw;
+        height: 60vh;
     }
     .member-card .member-photo {
         height: 35%;
     }
     .member-name {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .member-card-text1 {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
     .member-card-text2 {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 }
 

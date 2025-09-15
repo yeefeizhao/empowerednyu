@@ -94,9 +94,9 @@ export const execBoardData = [
             photo: chloe,
             position: "Project Manager",
             year: "Junior",
-            major: "Economics",
-            hometown: "Hong Kong",
-            linkedin: "https://www.linkedin.com/in/chloe-kindangen/",
+            major: "Business",
+            hometown: "Jakarta, Indonesia",
+            linkedin: "https://www.linkedin.com/in/chloekindangen/",
             email: "ck3469@stern.nyu.edu",
         },
         {
@@ -213,7 +213,7 @@ export const execBoardData = [
             major: "Math & Economics",
             hometown: "Delhi, India",
             linkedin: "https://www.linkedin.com/in/aarushmathur/",
-            email: "",
+            email: "am13736@nyu.edu",
         },
         {
             name: "Anthony Lease",
@@ -223,7 +223,7 @@ export const execBoardData = [
             major: "Finance & Real Estate",
             hometown: "Newburgh, New York",
             linkedin: "www.linkedin.com/in/anthony-lease",
-            email: "",
+            email: "ajl9915@stern.nyu.edu",
         },
         {
             name: "James Zhang",
@@ -233,7 +233,7 @@ export const execBoardData = [
             major: "Data Science & Math",
             hometown: "Irvine, CA",
             linkedin: "https://www.linkedin.com/in/jimmyzhang3858",
-            email: "",
+            email: "jimmyzhang@nyu.edu",
         },
         {
             name: "Nicole Zhao",
@@ -243,7 +243,7 @@ export const execBoardData = [
             major: "Finance & Management",
             hometown: "Vero Beach, Fl",
             linkedin: "https://www.linkedin.com/in/zhaonicole1",
-            email: "",
+            email: "nz2408@nyu.edu",
         },
         {
             name: "Saaesha Bhimjiani",
@@ -253,7 +253,7 @@ export const execBoardData = [
             major: "Business & Political Economy, Philosophy",
             hometown: "Cary, NC",
             linkedin: "https://www.linkedin.com/in/saaesha-bhimjiani/",
-            email: "",
+            email: "sb9308@stern.nyu.edu",
         },
         {
             name: "David Zhang",
@@ -263,7 +263,7 @@ export const execBoardData = [
             major: "Economics & Chemistry",
             hometown: "Columbus, IN",
             linkedin: "https://www.linkedin.com/in/david-zhang-183740273/",
-            email: "",
+            email: "dmz8267@nyu.edu",
         },
         {
             name: "Sheng Huang",
@@ -273,7 +273,7 @@ export const execBoardData = [
             major: "Business, Technology, Entrepreneurship",
             hometown: "Guangdong, China; Manhattan, NY",
             linkedin: "https://www.linkedin.com/in/sheng-huang-a42a06217/ ",
-            email: "",
+            email: "sh8099@stern.nyu.edu",
         },
         {
             name:"Manya Bahl",
@@ -283,7 +283,7 @@ export const execBoardData = [
             major: "Economics",
             hometown: "Singapore, Singapore",
             linkedin: "www.linkedin.com/in/manya-bahl-262b42234",
-            email: "",
+            email: "mb10012@nyu.edu",
         },
         {
             name: "Joaquin Lopez",
@@ -293,16 +293,16 @@ export const execBoardData = [
             major: "Public Policy & Economics",
             hometown: "Manila, Philippines",
             linkedin: "www.linkedin.com/in/joaquin-lopez-331323234",
-            email: "",
+            email: "jal9587@nyu.edu",
         },
         {
             name: "Prashansa Gour",
             photo: headshot,
             position: "Consultant",
             year: "Junior",
-            major: "Finance & Data Science",
-            hometown: "Los Angeles, California",
-            linkedin: "https://www.linkedin.com/in/prashansa-gour/",
-            email: "",
+            major: "Finance & Management",
+            hometown: "Hyderabad, India",
+            linkedin: "https://www.linkedin.com/in/prashansa-gour-b8166129a/",
+            email: "pg2578@nyu.edu",
         }
     ];
