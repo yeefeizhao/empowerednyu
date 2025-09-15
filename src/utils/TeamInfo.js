@@ -289,7 +289,7 @@ export const execBoardData = [
             name: "Joaquin Lopez",
             photo: headshot,
             position: "Consultant",
-            year: "Sophomore",
+            year: "Junior",
             major: "Public Policy & Economics",
             hometown: "Manila, Philippines",
             linkedin: "www.linkedin.com/in/joaquin-lopez-331323234",
@@ -304,5 +304,15 @@ export const execBoardData = [
             hometown: "Hyderabad, India",
             linkedin: "https://www.linkedin.com/in/prashansa-gour-b8166129a/",
             email: "pg2578@nyu.edu",
-        }
+        },
+        {
+            name: "Matthew Wang",
+            photo: headshot,
+            position: "Consultant",
+            year: "Junior",
+            major: "Finance & Management",
+            hometown: "Lexington, MA",
+            linkedin: "https://www.linkedin.com/in/mzwang7405/",
+            email: "mzw2011@stern.nyu.edu",
+        },
     ];

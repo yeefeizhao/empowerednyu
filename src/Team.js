@@ -47,6 +47,7 @@ function Team() {
                 member8={consultantsData[7]}
                 member9={consultantsData[8]}
                 member10={consultantsData[9]}
+                member11={consultantsData[10]}
             />
         </div>
     );
