@@ -94,10 +94,10 @@
 @media screen and (max-width: 768px) {
     .member-card {
         width: 40vw;
-        height: 60vh;
+        height: 70vh;
     }
     .member-card .member-photo {
-        height: 35%;
+        height: 50%;
     }
     .member-name {
         font-size: 1.2rem;
@@ -113,12 +113,12 @@
 @media screen and (max-width: 575px) {
     .member-card {
         width: 80vw;
-        height: 50vh;
+        height: 60vh;
         margin: 0.5rem 0;
     }
 
     .member-card .member-photo {
-        height: 35%;
+        height: 55%;
     }
 
     .member-card-links {
@@ -148,7 +148,7 @@
     }
 
     .member-card .member-photo {
-        height: 30%;
+        height: 60%;
     }
 
     .member-card-links {

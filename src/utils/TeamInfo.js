@@ -14,6 +14,16 @@ import akshita from "../images/headshots/akshita_headshot.webp";
 import stephanie from "../images/headshots/stephanie_headshot.webp";
 import nora from "../images/headshots/nora_headshot.webp";
 import caroline from "../images/headshots/caroline_headshot.webp";
+import aarush from "../images/headshots/aarush_headshot.webp";
+import anthony from "../images/headshots/anthony_headshot.webp";
+import saaesha from "../images/headshots/saaesha_headshot.webp";
+import david from "../images/headshots/david_headshot.webp";
+import sheng from "../images/headshots/sheng_headshot.webp";
+import manya from "../images/headshots/manya_headshot.webp";
+import joaquin from "../images/headshots/joaquin_headshot.webp";
+import prashansa from "../images/headshots/prashansa_headshot.webp";
+import matt from "../images/headshots/matt_headshot.webp";
+import jimmy from "../images/headshots/jimmy_headshot.webp";
 
 export const execBoardData = [
         {
@@ -167,7 +177,7 @@ export const execBoardData = [
             photo: jenny,
             position: "Consultant",
             year: "Junior",
-            major: "Economics & Strategic Thinking",
+            major: "Psychology",
             hometown: "Seoul, South Korea",
             linkedin: "https://www.linkedin.com/",
             email: "jennykim@nyu.edu",
@@ -207,7 +217,7 @@ export const execBoardData = [
     export const consultantsData = [
         {
             name: "Aarush Mathur",
-            photo: headshot,
+            photo: aarush,
             position: "Consultant",
             year: "Junior",
             major: "Math & Economics",
@@ -217,7 +227,7 @@ export const execBoardData = [
         },
         {
             name: "Anthony Lease",
-            photo: headshot,
+            photo: anthony,
             position: "Consultant",
             year: "Sophomore",
             major: "Finance & Real Estate",
@@ -227,7 +237,7 @@ export const execBoardData = [
         },
         {
             name: "James Zhang",
-            photo: headshot,
+            photo: jimmy,
             position: "Consultant",
             year: "Junior",
             major: "Data Science & Math",
@@ -247,7 +257,7 @@ export const execBoardData = [
         },
         {
             name: "Saaesha Bhimjiani",
-            photo: headshot,
+            photo: saaesha,
             position: "Consultant",
             year: "Junior",
             major: "Business & Political Economy, Philosophy",
@@ -257,7 +267,7 @@ export const execBoardData = [
         },
         {
             name: "David Zhang",
-            photo: headshot,
+            photo: david,
             position: "Consultant",
             year: "Sophomore",
             major: "Economics & Chemistry",
@@ -267,7 +277,7 @@ export const execBoardData = [
         },
         {
             name: "Sheng Huang",
-            photo: headshot,
+            photo: sheng,
             position: "Consultant",
             year: "Sophomore",
             major: "Business, Technology, Entrepreneurship",
@@ -277,7 +287,7 @@ export const execBoardData = [
         },
         {
             name:"Manya Bahl",
-            photo: headshot,
+            photo: manya,
             position: "Consultant",
             year: "Sophomore",
             major: "Economics",
@@ -287,7 +297,7 @@ export const execBoardData = [
         },
         {
             name: "Joaquin Lopez",
-            photo: headshot,
+            photo: joaquin,
             position: "Consultant",
             year: "Junior",
             major: "Public Policy & Economics",
@@ -297,7 +307,7 @@ export const execBoardData = [
         },
         {
             name: "Prashansa Gour",
-            photo: headshot,
+            photo: prashansa,
             position: "Consultant",
             year: "Junior",
             major: "Finance & Management",
@@ -307,7 +317,7 @@ export const execBoardData = [
         },
         {
             name: "Matthew Wang",
-            photo: headshot,
+            photo: matt,
             position: "Consultant",
             year: "Junior",
             major: "Finance & Management",
