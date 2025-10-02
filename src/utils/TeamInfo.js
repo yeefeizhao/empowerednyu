@@ -1,4 +1,4 @@
-import headshot from "../images/headshot.png";
+import alex from "../images/headshots/alex_headshot.webp";
 import alina from "../images/headshots/alina_headshot.webp";
 import alix from "../images/headshots/alix_headshot.webp";
 import anvita from "../images/headshots/anvita_headshot.webp";
@@ -24,6 +24,8 @@ import joaquin from "../images/headshots/joaquin_headshot.webp";
 import prashansa from "../images/headshots/prashansa_headshot.webp";
 import matt from "../images/headshots/matt_headshot.webp";
 import jimmy from "../images/headshots/jimmy_headshot.webp";
+import leon from "../images/headshots/leon_headshot.webp";
+import nicole from "../images/headshots/nicole_headshot.webp";
 
 export const execBoardData = [
         {
@@ -111,7 +113,7 @@ export const execBoardData = [
         },
         {
             name: "Leon Dang",
-            photo: headshot,
+            photo: leon,
             position: "Project Manager",
             year: "Junior",
             major: "Finance & Data Science",
@@ -121,7 +123,7 @@ export const execBoardData = [
         },
         {
             name: "Alex Li",
-            photo: headshot,
+            photo: alex,
             position: "Project Manager",
             year: "Sophomore",
             major: "Finance & Data Science",
@@ -247,7 +249,7 @@ export const execBoardData = [
         },
         {
             name: "Nicole Zhao",
-            photo: headshot,
+            photo: nicole,
             position: "Consultant",
             year: "Sophomore",
             major: "Finance & Management",
